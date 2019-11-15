@@ -21,13 +21,14 @@
         android:layout_height="224dp"
         android:gravity="center"
         android:text="Inicio de sesion con Google"
-        android:textSize="24sp"
-        tools:text="Inicio de sesion con Google" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="iniciarSesion"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/common_google_signin_btn_icon_dark_focused"
         android:text="Iniciar sesion" />
 </LinearLayout>
